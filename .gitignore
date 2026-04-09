@@ -1,0 +1,23 @@
+# credentials — never commit
+.env
+
+# Garmin OAuth tokens (stored by garth after first login)
+.garth/
+
+# local activity cache
+cache.json
+sleep_cache.json
+curl_command.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
